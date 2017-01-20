@@ -22,5 +22,6 @@ $(document).ready(function() {
     var pongOutput = divide(userInput);
     $("#pingpong-results").text(pongOutput);
     $(".img").show();
+    $("#results").show()
   });
 });

@@ -3,7 +3,7 @@ body {
   background-image: url(background.png);
 }
 
-.img {
+#results {
   display: none;
 }
 
@@ -12,7 +12,7 @@ body {
 }
 
 .btn {
-  background-color: #F78764;
+  background-color: #FD7035;
   color: white;
 
 }
