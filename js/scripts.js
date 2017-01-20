@@ -21,5 +21,6 @@ $(document).ready(function() {
     var userInput = parseInt($("#input").val());
     var pongOutput = divide(userInput);
     $("#pingpong-results").text(pongOutput);
+    $(".img").show();
   });
 });
