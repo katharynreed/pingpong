@@ -1,5 +1,8 @@
 body {
-  background-image: url(background.png);
+  background-color: #BCDDFF;
+  background-image: url(pingpong.gif);
+  background-repeat: round;
+  background-blend-mode: difference;
 }
 
 #head {
