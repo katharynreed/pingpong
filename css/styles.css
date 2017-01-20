@@ -2,14 +2,16 @@ body {
   background-color: #BCDDFF;
   background-image: url(pingpong.gif);
   background-repeat: round;
-  background-blend-mode: difference;
+  background-blend-mode: luminosity;
+  background-size: contain;
 }
 
 #head {
-  background-color: #FF6978;
+  background-color: #A8C9EB;
   text-align: center;
-  font-family: 'Overpass Mono', monospace;
+  font-family:'Permanent Marker', cursive;
+
   color: white;
   font-size: 80px;
-  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  text-shadow: -2px 0 #4B6C8E, 0 2px #4B6C8E, 2px 0 #4B6C8E, 0 -2px #4B6C8E;
 }
