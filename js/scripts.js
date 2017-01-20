@@ -13,3 +13,15 @@ var convert = function(userInput) {
     return pingPong;
   };
 };
+
+
+$(document).ready(function() {
+  $("#pingpong").submit(function(event){
+    event.preventDeafult();
+
+    var userInput = parseInt($("#input").val());
+    var pongOutput = convert(userInput);
+
+    $("#pingpong-results").text(pongOutput)
+  });
+});
