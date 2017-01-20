@@ -1,6 +1,6 @@
 var pingOrPongString = "";
 
-var divide = function(userInput) {
+var pingPongify = function(userInput) {
   for(var i = 1; i <= userInput; i++) {
     if (i % 15 === 0) {
       $("#pingpong-results").append("<p><strong>PING PONG!</strong></p>");
@@ -20,9 +20,9 @@ $(document).ready(function() {
     event.preventDefault();
     $("#pingpong-results").empty();
     var userInput = parseInt($("#input").val());
-    var pongOutput = divide(userInput);
+    var pongOutput = pingPongify(userInput);
     $("#pingpong-results").text(pongOutput);
     $(".img").show();
-    $("#results").show()
+    $("#results").show();
   });
 });
