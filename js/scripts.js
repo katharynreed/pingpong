@@ -17,17 +17,12 @@ var divide = function(userInput) {
 
 $(document).ready(function() {
   $("#pingpong").submit(function(event){
-    $("#pingpong-results").empty();
     event.preventDefault();
+    $("#pingpong-results").empty();
     var userInput = parseInt($("#input").val());
     var pongOutput = divide(userInput);
     $("#pingpong-results").text(pongOutput);
     $(".img").show();
-    $("#results").show();
-    $("button.refresh").show();
-  });
-
-  $("button.refresh").click(function() {
-    $("#pingpong-results").empty();
+    $("#results").show()
   });
 });
