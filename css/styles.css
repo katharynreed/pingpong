@@ -8,7 +8,15 @@ h4 {
   color: #FD7035;
 }
 
+h3 {
+  text-decoration: underline;
+}
+
 #results {
+  display: none;
+}
+
+.refresh {
   display: none;
 }
 
