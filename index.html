@@ -7,16 +7,22 @@
     <script src="js/jquery-3.1.1.js"></script>
     <script src="js/scripts.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   </head>
   <body>
     <div class="container">
       <div class="panel panel-default">
         <div class="panel-body">
           <div class="page-header">
-            <h1><span class="color">P</span>ing <span class="color">P</span>ong</h1>
+            <div class="pingheader">
+              <p><span class="color">P</span>ing <span class="color">P</span>ong</p>
+            </div>
+            <div class="smallheader">
+            This page was developed by Katie Reed for Epicodus.
+            </div>
           </div>
 
-          <h3>Enter a number and see if it comes back with a response of ping, pong, or ping-pong.</h3>
+          <h4>Enter a number and see if it comes back with a response of ping, pong, or ping-pong.</h4>
 
           <p>A number divisible by 3 is "ping", a number divisible by 5 is "pong", and a number divisible by 3 <strong>and</strong> is ping-pong!</p>
 
@@ -26,9 +32,14 @@
               <input id="input" type="text" name="input" value="">
               <button class="btn" type="submit" name="button">Go!</button>
                 <div id="results">
-                  <h3>Results here:</h3>
+                  <h3>Results Below:</h3>
                   <span id="pingpong-results"></span>
-                  <img src="css/pingpong2.gif" alt="ping pong">
+                  <div class="images">
+                    <img src="css/pingpong2.gif" alt="ping pong">
+                    <img src="css/pingpong2.gif" alt="ping pong">
+                    <img src="css/pingpong2.gif" alt="ping pong">
+                    <img src="css/pingpong2.gif" alt="ping pong">
+                  </div>
                 </div>
             </div>
           </form>
