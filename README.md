@@ -1,4 +1,4 @@
-# Picking a Track at Epicodus
+# Ping Pong
 
  A web page that will assign 'ping', 'pong', or 'ping pong' to numbers based on divison factors of 5, 3, and 15; Jan 20 2017
 
